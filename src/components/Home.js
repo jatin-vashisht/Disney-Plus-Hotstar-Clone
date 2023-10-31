@@ -40,6 +40,9 @@ const Home = () => {
           case "trending":
             trendings = [...trendings, { id: doc.id, ...doc.data() }]
             break;
+          
+          default:
+            console.log("No match");
         }
       })
       dispatch(

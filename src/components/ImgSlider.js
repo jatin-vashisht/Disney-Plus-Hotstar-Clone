@@ -16,19 +16,19 @@ function ImgSlider() {
   return (
     <Carousel {...settings}>
       <Wrap>
-          <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fslider-badging.jpg?alt=media&token=1747c490-6a98-4dee-8712-68233a60e10c&_gl=1*1mcrsk6*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjUxMi42MC4wLjA." alt="Carousel Image 1" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fslider-badging.jpg?alt=media&token=1747c490-6a98-4dee-8712-68233a60e10c&_gl=1*1mcrsk6*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjUxMi42MC4wLjA." alt="Carousel 1" />
       </Wrap>
 
       <Wrap>
-          <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fslider-scale.jpg?alt=media&token=2516f372-ee6d-41f9-999e-29038d338590&_gl=1*1rykzzo*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjUwMS42LjAuMA.." alt="Carousel Image 2" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fslider-scale.jpg?alt=media&token=2516f372-ee6d-41f9-999e-29038d338590&_gl=1*1rykzzo*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjUwMS42LjAuMA.." alt="Carousel 2" />
       </Wrap>
 
       <Wrap>
-          <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fslider-badag.jpg?alt=media&token=f16bdd5c-c3cc-479f-be04-2b9ee8969800&_gl=1*8lbqo2*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjUyNS40Ny4wLjA." alt="Carousel Image 3" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fslider-badag.jpg?alt=media&token=f16bdd5c-c3cc-479f-be04-2b9ee8969800&_gl=1*8lbqo2*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjUyNS40Ny4wLjA." alt="Carousel 3" />
       </Wrap>
 
       <Wrap>
-          <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fslider-scales.jpg?alt=media&token=411d3d93-5727-4769-b53e-a2d889abceed&_gl=1*3pj292*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjQ4Ny4yMC4wLjA." alt="Carousel Image 4" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fslider-scales.jpg?alt=media&token=411d3d93-5727-4769-b53e-a2d889abceed&_gl=1*3pj292*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjQ4Ny4yMC4wLjA." alt="Carousel 4" />
       </Wrap>
     </Carousel>
   )

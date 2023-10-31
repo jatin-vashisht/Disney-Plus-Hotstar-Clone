@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { useParams } from 'react-router-dom';
 import { collection, getDocs } from 'firebase/firestore/lite';
 import db from '../firebase';
-import { ColorRing } from 'react-loader-spinner';
+import { InfinitySpin } from 'react-loader-spinner';
 
 const Detail = () => {
   const { id } = useParams();
@@ -25,15 +25,7 @@ const Detail = () => {
     <Container>
       {!detailData.titleImg ? (
         <Loading>
-          <ColorRing
-            visible={true}
-            height="120"
-            width="120"
-            ariaLabel="blocks-loading"
-            wrapperStyle={{}}
-            wrapperClass="blocks-wrapper"
-            colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
-          />
+          <InfinitySpin width="200" color="lightblue" />
         </Loading>
       ) : (
         <>
@@ -47,11 +39,17 @@ const Detail = () => {
           <ContentMeta>
             <Controls>
               <Player>
-                <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fplay-icon-black.png?alt=media&token=75e402a9-d1d3-46cd-ab9c-ac16b6777f6c&_gl=1*a0x5i8*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjI1MS4zMC4wLjA." alt="Play Icon" />
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fplay-icon-black.png?alt=media&token=75e402a9-d1d3-46cd-ab9c-ac16b6777f6c&_gl=1*a0x5i8*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjI1MS4zMC4wLjA."
+                  alt="Play Icon"
+                />
                 <span>Play</span>
               </Player>
               <Trailer>
-                <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fplay-icon-white.png?alt=media&token=172643a8-5263-4fd5-98ea-3c3da4d96912&_gl=1*iayrub*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjI2NS4xNi4wLjA." alt="Trailer Icon" />
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fplay-icon-white.png?alt=media&token=172643a8-5263-4fd5-98ea-3c3da4d96912&_gl=1*iayrub*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjI2NS4xNi4wLjA."
+                  alt="Trailer Icon"
+                />
                 <span>Trailer</span>
               </Trailer>
               <AddList>
@@ -60,7 +58,10 @@ const Detail = () => {
               </AddList>
               <GroupWatch>
                 <div>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fgroup-icon.png?alt=media&token=e97dc899-fe36-4ffe-8ae1-1563fbf2e195&_gl=1*1vcgr5a*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjI4Mi42MC4wLjA." alt="GroupWatch Icon" />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/disney-plus-hotstar-clon-13914.appspot.com/o/images%2Fgroup-icon.png?alt=media&token=e97dc899-fe36-4ffe-8ae1-1563fbf2e195&_gl=1*1vcgr5a*_ga*MTU1MjIwODMyOC4xNjk2Nzc4OTI4*_ga_CW55HF8NVT*MTY5Njg3NjIyMS45LjEuMTY5Njg3NjI4Mi42MC4wLjA."
+                    alt="GroupWatch Icon"
+                  />
                 </div>
               </GroupWatch>
             </Controls>
@@ -251,6 +252,6 @@ const Loading = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-`
+`;
 
 export default Detail;
