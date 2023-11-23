@@ -17,12 +17,12 @@ The Disney+ Hotstar clone project aims to replicate the core functionalities and
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/disney-hotstar-clone.git
+   git clone https://github.com/jatin-vashisht/Disney-Plus-Hotstar-Clone.git 
 
 2. Navigate to the project directory:
 
    ```bash
-   cd disney-hotstar-clone
+   cd Disney-Plus-Hotstar-Clone
 
 3. Install dependencies:
 
